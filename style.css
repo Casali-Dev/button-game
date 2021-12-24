@@ -38,7 +38,7 @@ h1 {
     background-color: blueviolet;
     box-shadow: rgba(0, 0, 82, 0.8) 0.5rem 0.5rem 2rem;
     
-    transition: all 0.2s;
+    transition: filter 0.2s;
 }
 
 #button:active {
