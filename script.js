@@ -6,7 +6,7 @@ let interval = 3500
 
 function shineRed() {
     gameButton.classList.add("active")
-    setTimeout(() => {gameButton.classList.remove("active")}, 300)
+    setTimeout(() => {gameButton.classList.remove("active")}, 500)
     console.log("Olá mundo!")
     setTimeout(shineRed, (interval + Math.floor(Math.random() * (2000 + 2000) - 2000)))
 }
